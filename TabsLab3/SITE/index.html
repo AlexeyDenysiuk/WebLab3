@@ -1,0 +1,128 @@
+<html lang="">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Lab1 Map</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet"/>
+  
+    </head>
+</html>
+<body onLoad="alert(document.cookie);check_Cookie('result')">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="task4.js"></script>
+    <header class="header" id='hdr'>
+        <div class="banner_1">
+        <h1>Liga la sosa</h1>
+        </div>
+        <div class="text_area_1" id="block_1">
+        <p class="text_right" >Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent euismod tortor est, nec vulputate ex efficitur quis. <a href=#>ADD LIST CONSTRUCTOR </a>congue ullamcorper et vitae leo. Cras non lacus condimentum, vulputate libero et, interdum tortor. Nunc mattis, tellus lacinia pretium finibus, leo magna varius lect</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="block_1">
+            <div class="block_left_right_container">
+            <div class="block_left" id='asd'>
+                
+            <p class="task4_text">Ut id aliquam purus, sit amet bibendum arcu. Sed interdum vulputate urna ac tincidunt. Donec volutpat, tortor non dapibus laoreet, felis tellus imperdiet ipsum, non tincidunt elit magna vel dolor. Maecenas tempus nibh vel nisi congue <a href=#>ADD LIST CONSTRUCTOR </a> sit amet diam eget pretium. Donec dictum velit nec odio efficitur, vitae faucibus neque convallis. In id sem metus. Duis ultrices, nisl vel elementum rutrum, nisl massa laoreet velit, vel volutpat dolor lorem eu augue.</p>
+            <form>
+               
+                
+                                                    
+                  <input  class="delete" type="radio" id="contactChoice2"
+                   name="contact" value="phone">
+                  <label for="contactChoice2">Clear Local Storage</label>
+              
+                  
+              </form>
+            </div>
+            <div class="block_right" id ='leftmain'>
+                <img src="/images/image.jpg" width="100%"  alt="img" usemap="#workmap">
+                <map name="workmap">
+                    <area shape="rect" coords="0,0,500,500" alt="Computer" href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D1%82%D0%B8%D0%BD%D0%B0_(%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C)">                  </map>
+                    <button id="button_task1">TASK №1
+                        <script>
+                            button_task1.onclick = function() {
+                                let temp = document.getElementById("block_1").innerHTML;
+                                document.getElementById("block_1").innerHTML = document.getElementById("block_6").innerHTML;
+                                document.getElementById("block_6").innerHTML = temp;
+
+                            }
+                        </script>
+                    </button>
+                    <button id="button_task2">TASK №2
+                        <script>
+                            button_task2.onclick = function(){
+                                let a = 10; let h = 4;
+                                let S = a*h;
+                                document.getElementById("square").innerText= "a = "+a+"  h = "+h+"\nS = a * h = "+S;
+                            }
+                        </script>
+                    </button>
+                    <div class="task3"></div>
+
+                    <form action="/" method="post" id="form_task3"  >
+                    <div>
+                        <label>
+                            Side A:
+                            <input type="number" name=A_length value="3">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Side B:
+                            <input type="number" name=B_length value="4">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Side C:
+                            <input type="number" name=C_length value="5">
+                        </label>
+                    </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                    </form>
+
+
+                               <button onclick="alert(document.cookie), document.getElementById('form_task3').style.display='block';  ">
+									Show cookies/task №3
+                                </button>
+
+                               
+
+                    <p class="square" id="square"></p>
+                    <a href=#>ADD LIST CONSTRUCTOR </a>
+            </div>
+                </div>
+            <div class="block_down" id='bottommain'>
+            <p>Fusce et nunc enim. Fusce ut nulla lobortis, vestibulum sem et, commodo justo. Mauris id mollis nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis <a href=#>ADD LIST CONSTRUCTOR </a> leo et volutpat.Aenean lacinia sit amet diam eget pretium. Donec dictum velit nec odio efficitur, vitae faucibus neque convallis. In id sem metus.Aenean lacinia sit amet diam eget pretium. Donec dictum velit nec odio efficitur, vitae faucibus neque convallis. In id sem metus.Donec dictum velit nec odio efficitur, vitae faucibus neque convallis. In id sem metus. Donec dictum velit nec odio efficitur, vitae faucibus neque convallis. In id sem metus.
+            </div>
+        </section>
+        <section class="block_2" id = 'topmain'>
+            <div class="menu">
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="info1.html">Info</a></li>
+                    <li><a href="info2.html">Info</a></li>
+                    <li><a href="info3.html">Info</a></li>
+                    <li><a href="info4.html">Info</a></li>
+                </ul>
+            </div>
+            <a href=#>ADD LIST CONSTRUCTOR </a>
+        </section>
+
+    </main>
+    <footer class="footer" id='ftr'>
+     <div class="banner_2">
+        <h1>Fresco's higher than you thought!</h1>
+        </div>
+        <div class="text_area_2" id="block_6">
+        <p class="text_right"  >Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent euismod tortor est, nec vulputate ex efficitur quis. <a href=#>ADD LIST CONSTRUCTOR </a> ullamcorper et vitae leo. Cras non lacus condimentum, vulputate libero et, interdum tortor. Nunc mattis, tellus lacinia pretium finibus, leo magna varius lectus, non dapibus nisi ipsum id orci. Vivamus sagittis orci elit, id tempus orci egestas eu. Sed eu nulla gravida, consectetur risus at, pulvinar augue. Aliquam luctus efficitur ex ut suscipit. Etiam eleifend venenatis turpis sit amet blandit. Proin et mollis mi, nec commodo nibh.Aliquam luctus efficitur ex ut suscipit. Etiam eleifend venenatis </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
